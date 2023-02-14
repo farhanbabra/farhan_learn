@@ -21,7 +21,7 @@ def rotateMatrix(matrix):
 
 print(rotateMatrix(my_matrix))
 
-def rotateMatrix2(matrix):
+def rotateMatrix2(matrix):  #minor change from my side
     n = len(matrix)
     first = layer = 1
     last = n-layer-1
@@ -48,4 +48,3 @@ for i in range(N):
 
   for n in range(100, 10, -10):
       print(n)
-
